@@ -6,6 +6,7 @@ const LandingPage = () => {
         <section>
             <h1>Welcome to EduCare</h1>
             <p>Your one-stop solution for all educational resources.</p>
+            <button>Get Started</button>
         </section>
     </div>
   )

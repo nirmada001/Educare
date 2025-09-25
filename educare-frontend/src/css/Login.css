@@ -1,0 +1,83 @@
+/* General background */
+body {
+  background-color: #F3F4F6; /* Light gray */
+  font-family: Arial, sans-serif;
+}
+
+/* Center login box */
+.login-container {
+  width: 350px;
+  margin: 100px auto;
+  padding: 30px;
+  background: #FFFFFF; /* White card */
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Heading */
+.login-container h2 {
+  color: #2563EB; /* EduCare Blue */
+  margin-bottom: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+/* Input fields */
+.login-container input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+}
+.input:focus {
+    outline: none;
+    border-color: #38BDF8;
+  }
+
+/* Primary Button */
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background-color: #2563EB; /* EduCare Blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+/* Hover Button */
+.login-container button:hover {
+  background-color: #38BDF8; /* Sky Blue */
+}
+
+/* Extra links */
+.login-container a {
+  display: block;
+  margin-top: 10px;
+  color: #1E3A8A; /* Navy Blue */
+  text-decoration: none;
+  font-size: 14px;
+}
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+/* Special Sponsor button (if you need) */
+.sponsor-btn {
+  background-color: #16A34A; /* Green */
+}
+.sponsor-btn:hover {
+  background-color: #15803D;
+}
