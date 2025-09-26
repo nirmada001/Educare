@@ -1,0 +1,172 @@
+/* General background */
+body {
+  background-color: #e8f5fa; /* Light gray */
+  font-family: Arial, sans-serif;
+}
+
+/* Login Page Css */
+.login-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 30px;
+  background: #FFFFFF; /* White card */
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.login-container h2 {
+  color: #2563EB; /* EduCare Blue */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.login-container h4{
+    color: #65676a; /* Navy Blue */
+    margin-bottom: 20px;
+    font-weight: normal;
+  }
+
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+
+.login-container input {
+  width: 90%;
+  padding: 6px;
+  margin: 10px 0;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+}
+.input:focus {
+    outline: none;
+    border-color: #38BDF8;
+  }
+
+.login-container button {
+  width: 100%;
+  padding: 11px;
+  margin-top: 10px;
+  background-color: #2563EB; /* EduCare Blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #38BDF8; 
+}
+
+.login-container .login-p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #4B5563;
+    text-align: left;
+  }
+
+.login-container .login-a {
+  margin-top: 10px;
+  color: #1E3A8A; /* Navy Blue */
+  text-decoration: none;
+  font-size: 14px;
+}
+.login-container a:hover {
+  text-decoration: underline;
+}
+
+
+/* Register Page Css */
+.register-container {
+  width: 300px;
+  margin: 30px auto;
+  padding: 30px;
+  background: #FFFFFF; /* White card */
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.register-container h2 {
+  color: #2563EB; /* EduCare Blue */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.register-container h4{
+    color: #65676a; /* Navy Blue */
+    margin-bottom: 10px;
+    font-weight: normal;
+  }
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+.register-container input {
+  width: 90%;
+  padding: 6px;
+  margin: 10px 0;
+  border: 1px solid #D1D5DB;
+  border-radius: 8px;
+}
+.input:focus {
+    outline: none;
+    border-color: #38BDF8;
+  }
+.register-container button {
+  width: 100%;
+  padding: 11px;
+  margin-top: 10px;
+  background-color: #2563EB; /* EduCare Blue */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.register-container button:hover {
+  background-color: #38BDF8; 
+}
+
+.register-container .register-p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #4B5563;
+    text-align: left;
+  }
+
+.register-container .register-a {
+  margin-top: 10px;
+  color: #1E3A8A; /* Navy Blue */
+  text-decoration: none;
+  font-size: 14px;
+}
+.register-container a:hover {
+  text-decoration: underline;
+}
+
+/* Special Sponsor button (if you need) */
+/* .sponsor-btn {
+  background-color: #16A34A; 
+}
+.sponsor-btn:hover {
+  background-color: #15803D;
+} */
