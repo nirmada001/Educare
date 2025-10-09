@@ -9,14 +9,14 @@ export default function LoginPage() {
             <form className='mt-4 space-y-4'>
                 <div className='flex flex-col space-y-1'>
                     <label htmlFor="email" className='font-semibold'>Email</label>
-                    <input type="email" id="email" className='border border-gray-300 p-2 rounded-md' required />
+                    <input type="email" id="email" className='border border-gray-300 p-1 rounded-md hover:border-blue-500' required />
                 </div>
                 <div className='flex flex-col space-y-1'>
                     <label htmlFor="password" className='font-semibold'>Password</label>
-                    <input type="password" id="password" className='border border-gray-300 p-2 rounded-md' required />
+                    <input type="password" id="password" className='border border-gray-300 p-1 rounded-md hover:border-blue-500' required />
                 </div>
                 <p className='font-semibold'>Don't have an account? <a href="/register" className='text-blue-600 hover:underline font-semibold'>Signup</a></p>
-                <button type="submit" className='w-full bg-blue-600 text-white p-2 rounded-md'>Login</button>
+                <button type="submit" className='w-full bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700'>Login</button>
             </form>
         </div>
     </div>
